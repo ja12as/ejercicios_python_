@@ -1,7 +1,8 @@
 """Detectar y corregir los errores del siguiente programa que aplica el iva a una factura:"""
-base = input('Introduce la base imponible de la factura: ')
-print(aplica_iva(base, iva))
+base = float(input('Introduce la base imponible de la factura: '))
 
 def aplica_iva(base, iva = 21):
-    base = base * iva   
+    base += base * iva / 100  
     return base 
+
+print(aplica_iva(base))

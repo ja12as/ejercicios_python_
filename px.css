@@ -1,0 +1,46 @@
+
+/* px (píxel): */
+.px {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+}
+
+/* EM: */
+.em_parent {
+    font-size: 16px;
+}
+
+.em_child {
+    font-size: 1.5em;
+}
+
+/* REM: */
+:root {
+    font-size: 16px;
+}
+
+.child {
+    font-size: 1.5rem;
+}
+
+/* % (porcentaje): */
+.p_parent {
+    width: 500px;
+}
+
+.p_child {
+    width: 50%;
+}
+
+/* VW (viewport width): */
+.vw {
+    width: 50vw;
+    background-color: blue;
+}
+
+/* VH (viewport height): */
+.vh {
+    height: 30vh;
+    background-color: green;
+}

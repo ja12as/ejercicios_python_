@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="px.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- px (píxel): -->
+    <div class="px">En este ejemplo, el ancho de la div se establece en 200 píxeles y su altura en 150 píxeles. Los píxeles son una unidad de medida absoluta y mantendrán su tamaño fijo sin importar el contexto.</div>
+
+
+    <!-- EM: -->
+    <div class="em_parent">
+        <div class="em_child">En este ejemplo, el tamaño de fuente del elemento padre se establece en 16 píxeles. El tamaño de fuente del elemento hijo se establece en 1.5 veces el tamaño de fuente del elemento padre. Por lo tanto, si el tamaño de fuente del elemento padre es 16px, el tamaño de fuente del elemento hijo será de 24px (1.5 * 16px).</div>
+    </div>
+
+
+    <!-- REM: -->
+    <div class="rem">En este caso, el tamaño de fuente del elemento raíz (:root) se establece en 16 píxeles. El tamaño de fuente del elemento hijo se establece en 1.5 veces el tamaño de fuente del elemento raíz. Dado que el elemento raíz es el documento o la página completa, el tamaño de fuente del elemento hijo también será de 24px (1.5 * 16px).</div>
+
+
+    <!-- % (porcentaje): -->
+    <div class="p_parent">hola
+        <div class="p_child">En este ejemplo, el ancho del elemento padre se establece en 500 píxeles. El ancho del elemento hijo se establece en el 50% del ancho del elemento padre, lo que significa que tendrá un ancho de 250 píxeles (50% de 500px).</div>
+    </div>
+
+
+    <!-- VW (viewport width): -->
+    <div class="vw">En este caso, el ancho del elemento se establece en el 50% del ancho total del viewport. Si el ancho total del viewport es de 1000px, el elemento tendrá un ancho de 500px (50% de 1000px).</div>
+
+
+    <!-- VH (viewport height): -->
+    <div class="vh">En este ejemplo, la altura del elemento se establece en el 30% de la altura total del viewport. Si la altura total del viewport es de 800px, el elemento tendrá una altura de 240px (30% de 800px)</div>
+</body>
+</html>
